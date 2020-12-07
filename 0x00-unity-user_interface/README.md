@@ -42,7 +42,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | Maria Fernanda Crespo | [mfcrespo](https://github.com/mfcrespo) | [@mafe_crespo](https://twitter.com/mafe_crespo) | [mariafernandacrespo](https://www.linkedin.com/in/mariafernandacrespo) |
 
 ### License
-*`0x03. C# - Data Structures: HashSet, Stack, Queue, LinkedList` is open source and therefore free to download and use without permission.*
+*`0x00. Unity - User Interface` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
