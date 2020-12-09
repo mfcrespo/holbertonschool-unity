@@ -1,6 +1,6 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png)
 
-# 0x01. Unity - Unity Concepts
+# 0x01. Unity - Concepts
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
