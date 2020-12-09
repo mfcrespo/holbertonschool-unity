@@ -166,7 +166,7 @@ PrefabInstance:
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
@@ -415,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
@@ -563,7 +563,7 @@ PrefabInstance:
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
@@ -730,7 +730,7 @@ PrefabInstance:
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 150573209010917584, guid: e08f0081ad79f6042b9d2a412eacec40,
         type: 3}
@@ -752,5 +752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Red Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 150573209010917590, guid: e08f0081ad79f6042b9d2a412eacec40,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0d895e6e81986e40b8d18dc75d1231f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e08f0081ad79f6042b9d2a412eacec40, type: 3}
