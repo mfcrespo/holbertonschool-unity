@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     public GameObject winLose;
     public Image winLoseImg;
     public Text winLoseText;
+    public Joystick joystick;
+    Vector3 translateObj;
+    Vector3 rotateObj;
 
     //This is a reference to the Rigidbody component called "rb"
     public Rigidbody rb;
@@ -46,26 +49,28 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (Input.touchSupported)
+        {
+            joystick.gameObject.SetActive(true); // Active the Touch option for device
+            //horizontal
+            translateObj.x = joystick.Horizontal;
+            //vertical
+            translateObj.z = joystick.Vertical;
+            rotateObj.x = joystick.Vertical;// Vertical
+            rotateObj.z = joystick.Horizontal;// Horizontal    
+        }
+        else
+        {
+            joystick.gameObject.SetActive(false);
+            translateObj.x = Input.GetAxis("Horizontal");
+            translateObj.z = Input.GetAxis("Vertical");
+            rotateObj.x = Input.GetAxis("Vertical");
+            rotateObj.z = Input.GetAxis("Horizontal");
+        }
         // Add speed force
-        if ( Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.AddForce(speed * Time.deltaTime, 0, 0);
-        }
-    
-        if ( Input.GetKey("a")  || Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.AddForce(-speed * Time.deltaTime, 0, 0);
-        }
-
-        if ( Input.GetKey("w") || Input.GetKey(KeyCode.UpArrow))
-        {
-            rb.AddForce(0, 0, speed * Time.deltaTime);
-        }
-    
-        if ( Input.GetKey("s")  || Input.GetKey(KeyCode.DownArrow))
-        {
-            rb.AddForce(0, 0, -speed * Time.deltaTime);
-        }        
+        rb.AddForce(translateObj * speed * Time.deltaTime) ; 
+        // Apply rotate
+        rb.transform.Rotate(rotateObj * speed * Time.deltaTime) ;
     }
 
 void OnTriggerEnter(Collider other)
