@@ -26,10 +26,11 @@ Image to test AR Business Card
 <img src="https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/MGA_logo.jpg" width="50%" height="50%">
 </p>
 
-
 ### Touch the Social media links and enjoy
 
-![](https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/0-layout2.png)
+<p>
+<img src="https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/0-layout2.png" width="50%" height="50%">
+</p>
 
 #### Follow me 💬
 
