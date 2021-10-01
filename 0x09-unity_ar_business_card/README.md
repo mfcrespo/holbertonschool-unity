@@ -18,13 +18,13 @@ Image to test AR Business Card
 
 ### ImageTarget to test ARBusinessCard
 
-![](https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/LogoAR.jpg)
-
 <p>
 <img src="https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/LogoAR.jpg" width="50%" height="50%">
 </p>
 
-![](https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/MGA_logo.jpg)
+<p>
+<img src="https://github.com/mfcrespo/holbertonschool-unity/blob/main/0x09-unity_ar_business_card/Assets/Images/MGA_logo.jpg" width="50%" height="50%">
+</p>
 
 
 ### Touch the Social media links and enjoy
